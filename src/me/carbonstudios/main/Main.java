@@ -1,4 +1,4 @@
-package me.animaldevelopment.main;
+package me.carbonstudios.main;
 
 import static java.lang.System.out;
 

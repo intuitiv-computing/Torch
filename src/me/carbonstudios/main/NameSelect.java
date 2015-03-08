@@ -1,6 +1,4 @@
-package me.animaldevelopment.main;
-
-import me.animaldevelopment.main.Player;
+package me.carbonstudios.main;
 
 import java.util.Scanner;
 
