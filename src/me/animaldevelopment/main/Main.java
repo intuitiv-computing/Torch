@@ -9,6 +9,7 @@ public class Main {
         out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
         out.println("           Cluiche           ");
         out.println("  An Animal Development Game ");
+        out.println("    Press ENTER to continue  ");
         out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
     }
 }
