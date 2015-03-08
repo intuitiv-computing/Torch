@@ -1,14 +1,13 @@
 package me.carbonstudios.main.weapon;
 
 import java.util.List;
-import me.carbonstudios.main.weapon.Weapon;
 
-public class BasicSword implements Weapon {
+public class BasicDagger implements Weapon {
     public int id() {
         return 1;
     }
     public String name() {
-        return "Basic Sword";
+        return "Plain Dagger";
     }
     public List<String> bonus() {
         return null;
