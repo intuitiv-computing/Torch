@@ -1,15 +1,27 @@
 package me.animaldevelopment.main;
 
 import static java.lang.System.out;
-import me.animaldevelopment.main.Player;
+
+import java.util.Scanner;
 
 public class Main {
     Player player = new Player();
+    static NameSelect nameSelect = new NameSelect();
     public static void main(String[] args) {
         out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
         out.println("           Cluiche           ");
-        out.println("  An Animal Development Game ");
+        out.println("     A Carbon Studios Game   ");
         out.println("    Press ENTER to continue  ");
         out.println("OOOOOOOOOOOOOOOOOOOOOOOOOOOOO");
+        Scanner keyIn = new Scanner(System.in);
+        keyIn.nextLine();
+        keyIn.nextLine();
+        selectName();
+
     }
+    public static void selectName()
+    {
+        nameSelect.select();
+    }
+
 }

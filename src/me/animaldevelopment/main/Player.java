@@ -2,7 +2,7 @@ package me.animaldevelopment.main;
 
 import java.util.List;
 
-public class Player extends Main {
+public class Player {
     private static String name;
     public String getName() {
         return name;
