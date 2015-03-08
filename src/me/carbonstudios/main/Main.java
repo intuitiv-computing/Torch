@@ -1,5 +1,8 @@
 package me.carbonstudios.main;
 
+import me.carbonstudios.main.player.NameSelect;
+import me.carbonstudios.main.player.Player;
+
 import static java.lang.System.out;
 
 import java.util.Scanner;

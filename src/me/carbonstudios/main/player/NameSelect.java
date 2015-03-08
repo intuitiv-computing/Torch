@@ -1,4 +1,6 @@
-package me.carbonstudios.main;
+package me.carbonstudios.main.player;
+
+import me.carbonstudios.main.player.Player;
 
 import java.util.Scanner;
 
