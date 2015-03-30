@@ -1,4 +1,4 @@
-package me.carbonstudios.main.weapon;
+package me.carbonstudios.main.item.weapon;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package me.carbonstudios.main.weapon;
+package me.carbonstudios.main.item.weapon;
 
-import com.sun.istack.internal.NotNull;
+import me.carbonstudios.main.item.Item;
 
 import java.util.List;
 
-public interface Weapon {
+public interface Weapon extends Item {
     public int id = 0;
     public int damage = 0;
     public List<String> bonus = null;

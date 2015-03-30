@@ -1,4 +1,4 @@
-package me.carbonstudios.main.weapon;
+package me.carbonstudios.main.item.weapon;
 
 /**
  * Created by Sam on 3/8/2015.

@@ -20,6 +20,9 @@ public class Player {
     public static void setStamina(int stamina) {
         Player.stamina = stamina;
     }
+    public static int getDexterity() { return dexterity; }
+
+    public static int getStrength() { return strength; }
 
     public static String getName() {
         return name;
@@ -28,6 +31,8 @@ public class Player {
     public static void setName(String name) {
         Player.name = name;
     }
+
+    public static int weaponId = 0;
 
     public List<Integer> inventory()
     {
