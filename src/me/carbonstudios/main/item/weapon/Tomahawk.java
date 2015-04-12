@@ -2,14 +2,16 @@ package me.carbonstudios.main.item.weapon;
 
 import me.carbonstudios.main.*;
 
-public class Tomahawk extends Weapon {
+import java.util.List;
+
+public class Tomahawk implements Weapon {
     public int id() {
         return 3;
     }
     public int damage() {
         return 3;
     }
-    public List<String> bonus {
+    public List<String> bonus() {
         return null;
     }
     public String name() {
@@ -17,5 +19,10 @@ public class Tomahawk extends Weapon {
     }
     public int type() {
         return 1;
+    }
+
+    @Override
+    public boolean canBeCrafted() {
+        return false;
     }
 }

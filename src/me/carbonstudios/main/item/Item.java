@@ -18,4 +18,10 @@ public interface Item {
      * Must <b>NOT</b> be equal to <b>0</b>.
      */
     public int id = 0;
+    /**
+     * Gets an item's craft-ability.
+     * @return true if the item can be crafted, otherwise false.
+     * Implemented in <code>ItemCraftable</code>
+     */
+    public boolean canBeCrafted();
 }
