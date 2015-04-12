@@ -10,7 +10,7 @@ public class SQLDatabase {
     public void getFile() {
         try {
             FileInputStream fio = new FileInputStream("sql.dat");
-            fio.read();
+            fio.readFile();
         } catch(FileNotFoundException ex) {
             ex.printStackTrace();
         }
@@ -18,9 +18,9 @@ public class SQLDatabase {
     public void connectToAndQueryDatabase(String username, String password) {
     try {
         Connection con = DriverManager.getConnection(
-                "hostname-goes-here",
+                "127.0.0.1",
                 "carbonstudios",
-                "password-not-in-public-view-please-see-sam-for-details");
+                "fileinputstream-here");
     } catch(SQLException e) {
         e.printStackTrace();
     }}
