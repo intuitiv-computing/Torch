@@ -1,5 +1,7 @@
 package me.carbonstudios.main.player;
 
+import me.carbonstudios.main.item.Item;
+
 import java.util.List;
 
 public class Player {
@@ -20,9 +22,14 @@ public class Player {
     public static void setStamina(int stamina) {
         Player.stamina = stamina;
     }
-    public static int getDexterity() { return dexterity; }
 
-    public static int getStrength() { return strength; }
+    public static int getDexterity() {
+        return dexterity;
+    }
+
+    public static int getStrength() {
+        return strength;
+    }
 
     public static String getName() {
         return name;
@@ -34,8 +41,10 @@ public class Player {
 
     public static int weaponId = 0;
 
-    public List<Integer> inventory()
-    {
-        return this.inventory();
+    public static List<Item[]> inventory;
+
+    public static List<Item[]> getInventory() {
+        return inventory;
     }
+
 }

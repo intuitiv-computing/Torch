@@ -21,7 +21,7 @@ public interface Item {
     /**
      * Gets an item's craft-ability.
      * @return true if the item can be crafted, otherwise false.
-     * Implemented in <code>ItemCraftable</code>
+     * Implemented in {@link me.carbonstudios.main.crafting.ItemCraftable}
      */
     public boolean canBeCrafted();
 }

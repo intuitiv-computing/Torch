@@ -12,4 +12,7 @@ public class CraftingTable implements Item {
     public String name() {
         return "Crafting Table";
     }
+    public boolean canBeCrafted() {
+        return true;
+    }
 }

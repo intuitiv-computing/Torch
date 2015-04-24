@@ -11,4 +11,9 @@ public class SwordNye implements Weapon {
     {
         return "Sword of Nye";
     }
+
+    @Override
+    public boolean canBeCrafted() {
+        return true;
+    }
 }
