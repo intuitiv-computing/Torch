@@ -1,7 +1,9 @@
 package me.carbonstudios.main.item.weapon;
 
 /**
- * Created by Sam on 3/8/2015.
+ * THIS CODE MAY BE LICENSED AND/OR COPYRIGHTED BY CARBON STUDIOS.
+ *
+ * FILE CREATED ON 3/8/2015 at 6:40 AM
  */
 public class SwordNye implements Weapon {
     public int id() {

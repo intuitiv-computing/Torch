@@ -18,4 +18,9 @@ public class BasicDagger implements Weapon {
     public int type() {
         return 0;
     }
+
+    @Override
+    public boolean canBeCrafted() {
+        return true;
+    }
 }

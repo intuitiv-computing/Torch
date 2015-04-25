@@ -1,11 +1,9 @@
 package me.carbonstudios.main.item;
 
-import com.sun.istack.internal.NotNull;
-
-import java.util.List;
-
 /**
- * Created by Sam on 3/19/2015.
+ * THIS CODE MAY BE LICENSED AND/OR COPYRIGHTED BY CARBON STUDIOS.
+ *
+ * FILE CREATED ON 3/19/2015 at 6:39 AM
  */
 public interface Item {
     /**

@@ -1,20 +1,20 @@
-package me.carbonstudios.main.item.util;
+package me.carbonstudios.main.item.weapon;
 
 import me.carbonstudios.main.item.Item;
 
 /**
  * THIS CODE MAY BE LICENSED AND/OR COPYRIGHTED BY CARBON STUDIOS.
- *
- * FILE CREATED ON 4/12/2015 at 6:41 AM
+ * <p/>
+ * FILE CREATED ON 4/25/2015 at 6:37 AM
  */
-public class CraftingTable implements Item {
+public class Arrow implements Item {
     public int id() {
-        return 6;
+        return 10;
     }
     public String name() {
-        return "Crafting Table";
+        return "Arrow";
     }
     public boolean canBeCrafted() {
-        return true;
+        return false;
     }
 }

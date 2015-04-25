@@ -10,7 +10,7 @@ public class SQLDatabase {
     public void getFile() {
         try {
             FileInputStream fio = new FileInputStream("sql.dat");
-            fio.readFile();
+        //    fio.readFile();
         } catch(FileNotFoundException ex) {
             ex.printStackTrace();
         }
