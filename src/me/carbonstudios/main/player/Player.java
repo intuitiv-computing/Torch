@@ -41,9 +41,9 @@ public class Player {
 
     public static int weaponId = 0;
 
-    public static List<Item[]> inventory;
+    public static List<Item> inventory;
 
-    public static List<Item[]> getInventory() {
+    public static List<Item> getInventory() {
         return inventory;
     }
 

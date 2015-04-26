@@ -14,8 +14,6 @@
 hs_err_pid*
 # Project Files #
 *.iml
-.idea
-.git
-
-
-
+.idea/
+.git/
+src/me/carbonstudios/main/item/weapon/SwordOfSam.java

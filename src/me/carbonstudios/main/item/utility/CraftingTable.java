@@ -1,4 +1,4 @@
-package me.carbonstudios.main.item.util;
+package me.carbonstudios.main.item.utility;
 
 import me.carbonstudios.main.item.Item;
 

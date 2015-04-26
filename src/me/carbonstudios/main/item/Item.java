@@ -1,5 +1,7 @@
 package me.carbonstudios.main.item;
 
+import com.sun.istack.internal.Nullable;
+
 /**
  * THIS CODE MAY BE LICENSED AND/OR COPYRIGHTED BY CARBON STUDIOS.
  *
@@ -22,4 +24,19 @@ public interface Item {
      * Implemented in {@link me.carbonstudios.main.crafting.ItemCraftable}
      */
     public boolean canBeCrafted();
+    public enum BonusList {
+        SLOW,
+
+        FAST,
+
+        BIG,
+
+        DAMAGE,
+
+        HARD,
+
+        INTREPID,
+
+        FORTYTWO
+    }
 }
