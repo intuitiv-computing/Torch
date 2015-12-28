@@ -1,0 +1,3 @@
+[submodule "TorchAPI"]
+	path = TorchAPI
+	url = https://github.com/CarbonStudios/TorchAPI
